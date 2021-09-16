@@ -5,7 +5,7 @@ public class collect implements Runnable
 		collect.printThread();
 	}
 	
-	public static synchronized void printThread ()
+	public synchronized void printThread ()
 	{
 		for (int i=0;i<5;i++)
 		{
